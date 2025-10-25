@@ -17,9 +17,11 @@ namespace mf_dev_backend_2025.Models
         public string Placa { get; set; }
 
         [Required(ErrorMessage = "Obrigatório")]
+        [Display(Name = "Ano de Fabricação do Veículo")]
         public int AnoFabricacao { get; set; }
 
         [Required(ErrorMessage = "Obrigatório")]
+        [Display(Name = "Ano do Modelo do Veículo")]   
         public int AnoModelo { get; set; }
     }
 }
