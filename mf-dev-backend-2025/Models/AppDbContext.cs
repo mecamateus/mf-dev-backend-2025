@@ -9,5 +9,7 @@ namespace mf_dev_backend_2025.Models
         public DbSet<Veiculo> Veiculos { get; set; } 
 
         public DbSet<Consumo> Consumos { get; set; }
+
+        public DbSet<Usuario> Ususarios { get; set; }
     }
 }
